@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(250, 248, 248);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    outline: none;
+}
+
+#header {
+    width: 100%;
+    box-shadow: 0px 3px 4px 2px rgb(189, 186, 186);
+    background-color: rgb(250, 248, 248);
+    position: fixed;
+}
+
+.burger-menu-bar {
+    display: none;
+}
+
+.fas.hidden {
+    display: none;
+}
+
+.fas.active {
+    display: inline-block;
+}
+
+.fas.fa-chevron-down {
+
+    display: inline-block;
+}
+
+.fas.fa-chevron-down.hidden {
+    display: none;
+}
+
+.down-icon {
+    font-size: 20px;
+    border: 0px solid rgb(250, 248, 248);
+    border-left: 2px solid rgb(189, 186, 186);
+
+    background-color: rgb(250, 248, 248);
+}
+
+.dropdown-menu {
+    margin: 0px 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.dropdown-menu-item {
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    height: 50px;
+    position: static;
+    transition: .1s linear;
+}
+
+.dropdown-menu-item:hover {
+    border-bottom: 3px solid orange;
+
+
+}
+
+.submenu {
+    display: none;
+
+}
+
+.dropdown-menu-item:hover>.submenu {
+    background-color: rgb(250, 248, 248);
+    padding: 20px;
+    top: 50px;
+    left: 120px;
+    right: 120px;
+    border-radius: 3px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    z-index: 3;
+    animation-duration: 0.55s;
+    animation-name: appearing;
+}
+
+.dropdown-menu-item:hover::after {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    height: 100vw;
+    background: rgba(24, 23, 23, 0.712);
+    border-radius: 5px;
+    animation-duration: 0.55s;
+    animation-name: appearing;
+    z-index: 1;
+}
+
+.submenu-item {
+    margin: 0 auto;
+}
+
+.dropdown-menu-item>.nav-link {
+    font-size: 14px;
+}
+
+.submenu-list-item>.nav-link {
+    font-size: 12px;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.submenu-list {
+    text-align: start;
+}
+
+.main-content {
+    text-align: justify;
+    margin-top: 50px;
+    padding: 10px 140px;
+}
+
+@keyframes appearing {
+    0% {
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}

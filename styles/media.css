@@ -1,0 +1,119 @@
+@media screen and (max-width: 970px) {
+    .dropdown-menu-item>.nav-link {
+        font-size: 12px;
+    }
+
+    .submenu-list-item>.nav-link {
+        font-size: 10px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .main-content {
+        margin-top: 50px;
+        padding: 10px 120px;
+    }
+
+}
+
+@media screen and (max-width: 930px) {
+    #header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .burger-menu-bar {
+        background-color: rgb(250, 248, 248);
+        display: flex;
+        width: 100%;
+        padding: 13px 40px 13px 0px;
+
+        align-items: center;
+    }
+
+    .burger-menu {
+        font-size: 24px;
+        justify-content: end;
+        margin-left: 100%;
+        padding: 2px 6px;
+        border: 0px solid rgb(250, 248, 248);
+        background-color: rgb(250, 248, 248);
+    }
+
+    .burger-menu .fa-times {
+        color: rgb(206, 104, 8);
+    }
+
+    .dropdown-menu {
+        display: none;
+    }
+
+    .dropdown-menu-mobile {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px;
+        max-height: 40vh;
+        width: 100%;
+        overflow-y: auto;
+        background-color: rgb(250, 248, 248);
+    }
+
+    .dropdown-menu-mobile-item {
+        width: 100%;
+        padding: 10px 12px 10px 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .dropdown-menu-mobile-item>a {
+        margin-left: 10px;
+    }
+
+    .main-content {
+        margin-top: 50px;
+        padding: 10px 100px;
+    }
+
+    .submenu-mobile {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px;
+        width: 100%;
+        background-color: rgb(228, 222, 222)
+    }
+
+    .submenu-mobile .down-icon {
+        background-color: rgb(228, 222, 222)
+    }
+    .submenu-list{
+        display:none;
+    }
+    .submenu-mobile-item {
+        width: 100%;
+        padding: 10px 0px 10px 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .submenu-mobile-list {
+        width: 100%;
+        padding: 10px 12px 10px 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .submenu-mobile-list-item {
+        width: 100%;
+        padding: 10px 12px 10px 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
