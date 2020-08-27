@@ -4,190 +4,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test task</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/media.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Arseny Areshko</title>
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a886da4060.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
     <div class="main-container">
         <header id="header">
-            <div class="burger-menu-bar">
-                <button class="burger-menu"><i class="fas fa-bars active"></i><i class="fas fa-times hidden"></i>
-                    <!--fa-times --></button>
+            
+            <nav id="navbar" class="nav">
 
-            </div>
-            <nav class="nav-bar">
-                <ul class="dropdown-menu">
-                    <li class="dropdown-menu-item">
-                        <a href="#" class="nav-link">Элемент 1</a>
-                    </li>
-                    <li class="dropdown-menu-item">
-                        <a href="#" class="nav-link">Элемент 2</a>
-                        <button class="down-icon">
-                            <i class="fas fa-chevron-down hidden"></i>
-                            <i class="fas fa-chevron-up hidden"></i>
-                        </button>
-                        <ul class="submenu">
-                            <li class="submenu-item"><a href="#" class="nav-link">Элемент 2.1</a></li>
-                            <li class="submenu-item"><a href="#" class="nav-link">Элемент 2.2</a>
-                                <button class="down-icon">
-                                    <i class="fas fa-chevron-down hidden"></i>
-                                    <i class="fas fa-chevron-up hidden"></i>
-                                </button>
-                                <ul class="submenu-list">
-                                    <li class="submenu-list-item"><a href="#" class="nav-link">Элемент 2.2.1</a></li>
-                                    <li class="submenu-list-item"><a href="#" class="nav-link">Элемент 2.2.2</a></li>
-                                    <li class="submenu-list-item"><a href="#" class="nav-link">Элемент 2.2.3</a></li>
-                                </ul>
-                            </li>
-                            <li class="submenu-item"><a href="#" class="nav-link">Элемент 2.3</a></li>
-                            <li class="submenu-item"><a href="#" class="nav-link">Элемент 2.4</a>
-                                <button class="down-icon">
-                                    <i class="fas fa-chevron-down hidden"></i>
-                                    <i class="fas fa-chevron-up hidden"></i>
-                                </button>
-                                <ul class="submenu-list">
-                                    <li class="submenu-list-item"><a href="#" class="nav-link">Элемент 2.4.1</a></li>
-                                    <li class="submenu-list-item"><a href="#" class="nav-link">Элемент 2.4.2</a></li>
-                                    <li class="submenu-list-item"><a href="#" class="nav-link">Элемент 2.4.3</a></li>
-                                    <li class="submenu-list-item"><a href="#" class="nav-link">Элемент 2.4.4</a></li>
-                                    <li class="submenu-list-item"><a href="#" class="nav-link">Элемент 2.4.5</a></li>
-                                    <li class="submenu-list-item"><a href="#" class="nav-link">Элемент 2.4.6</a></li>
-                                    <li class="submenu-list-item"><a href="#" class="nav-link">Элемент 2.4.7</a></li>
-                                </ul>
-                            </li>
-                            <li class="submenu-item"><a href="#" class="nav-link">Элемент 2.5</a></li>
-                            <li class="submenu-item"><a href="#" class="nav-link">Элемент 2.6</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-menu-item">
-                        <a href="#" class="nav-link">Элемент 3</a>
-                    </li>
-                    <li class="dropdown-menu-item">
-                        <a href="#" class="nav-link">Элемент 4</a>
-                        <button class="down-icon">
-                            <i class="fas fa-chevron-down hidden"></i>
-                            <i class="fas fa-chevron-up hidden"></i>
-                        </button>
-                        <ul class="submenu">
-                            <li class="submenu-item"><a href="#" class="nav-link">Элемент 4.1</a></li>
-                            <li class="submenu-item"><a href="#" class="nav-link">Элемент 4.2</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-menu-item">
-                        <a href="#" class="nav-link">Элемент 5</a>
-                    </li>
-                    <li class="dropdown-menu-item">
-                        <a href="#" class="nav-link">Элемент 6</a>
-                    </li>
-                    <li class="dropdown-menu-item">
-                        <a href="#" class="nav-link">Элемент 7</a>
-                    </li>
-                   
-                </ul>
+                <a class="nav-link" href="#welcome-section">About</a>
+
+                <a class="nav-link" href="#projects">Work</a>
+
+                <a class="nav-link" href="#contact">Contact</a>
+
+
             </nav>
         </header>
-        <section class="main-content">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero tempore architecto officiis consectetur
-                mollitia
-                eveniet quia temporibus. Facere corporis omnis nobis veritatis asperiores accusantium quod blanditiis
-                sint
-                tempore, excepturi cupiditate.
-                Illo rerum quibusdam recusandae excepturi quisquam fugit dolor laborum et vero vitae nulla, labore
-                cupiditate
-                similique aspernatur deserunt cumque laudantium aut iure fugiat error! Deleniti esse consequatur magni
-                atque
-                illum.
-                Soluta, animi, voluptatem laboriosam harum nisi dolores obcaecati perferendis rem minus magnam iure
-                placeat
-                pariatur vero voluptatum reiciendis laborum magni doloribus. Cupiditate necessitatibus distinctio soluta
-                id
-                numquam! Consequuntur, perspiciatis libero.
-                Numquam non maxime similique blanditiis assumenda alias vitae maiores, sunt reprehenderit porro labore
-                consequuntur amet nemo aperiam nobis, ducimus obcaecati perferendis quia. Adipisci amet non vero
-                voluptatum
-                fugiat alias reiciendis!
-                Facere corrupti totam quisquam maiores illo nesciunt quos modi, vel, hic itaque ipsam quod ullam
-                officiis
-                illum
-                repellendus nihil similique explicabo libero, soluta dicta unde provident sit. Vero, incidunt a.
-                Ducimus expedita tenetur ullam aspernatur libero ipsam atque ad. Quos nobis sed harum eum laboriosam
-                officia
-                reiciendis cum at ad sint, facere blanditiis, delectus asperiores commodi labore ipsam explicabo minus!
-                Commodi autem modi nemo perspiciatis reprehenderit ipsam fuga sunt quasi incidunt quam veniam culpa sit
-                natus
-                porro dolore ipsa similique earum excepturi placeat tempore aliquam corrupti beatae, enim sapiente.
-                Facere?
-                Aperiam, distinctio blanditiis. Optio blanditiis quibusdam ea unde natus odit accusantium asperiores
-                delectus
-                molestiae maiores accusamus eius obcaecati, sapiente ex fugit, doloribus sed nostrum debitis deleniti
-                quia
-                saepe
-                eos nihil?
-                Odio molestiae quasi non in, architecto, veritatis blanditiis dolor quas eos omnis perspiciatis.
-                Repellat
-                inventore eos cupiditate mollitia omnis esse, consequuntur, facilis magni velit eaque sit dignissimos ad
-                porro
-                reprehenderit.
-                Pariatur molestiae dolore placeat quaerat, dolores hic, vel, provident iusto delectus ad amet? Tempora
-                excepturi
-                exercitationem porro laboriosam veniam sit distinctio esse accusantium commodi voluptate. Itaque
-                reprehenderit
-                aliquam nemo odit.
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero tempore architecto officiis consectetur
-                mollitia
-                eveniet quia temporibus. Facere corporis omnis nobis veritatis asperiores accusantium quod blanditiis
-                sint
-                tempore, excepturi cupiditate.
-                Illo rerum quibusdam recusandae excepturi quisquam fugit dolor laborum et vero vitae nulla, labore
-                cupiditate
-                similique aspernatur deserunt cumque laudantium aut iure fugiat error! Deleniti esse consequatur magni
-                atque
-                illum.
-                Soluta, animi, voluptatem laboriosam harum nisi dolores obcaecati perferendis rem minus magnam iure
-                placeat
-                pariatur vero voluptatum reiciendis laborum magni doloribus. Cupiditate necessitatibus distinctio soluta
-                id
-                numquam! Consequuntur, perspiciatis libero.
-                Numquam non maxime similique blanditiis assumenda alias vitae maiores, sunt reprehenderit porro labore
-                consequuntur amet nemo aperiam nobis, ducimus obcaecati perferendis quia. Adipisci amet non vero
-                voluptatum
-                fugiat alias reiciendis!
-                Facere corrupti totam quisquam maiores illo nesciunt quos modi, vel, hic itaque ipsam quod ullam
-                officiis
-                illum
-                repellendus nihil similique explicabo libero, soluta dicta unde provident sit. Vero, incidunt a.
-                Ducimus expedita tenetur ullam aspernatur libero ipsam atque ad. Quos nobis sed harum eum laboriosam
-                officia
-                reiciendis cum at ad sint, facere blanditiis, delectus asperiores commodi labore ipsam explicabo minus!
-                Commodi autem modi nemo perspiciatis reprehenderit ipsam fuga sunt quasi incidunt quam veniam culpa sit
-                natus
-                porro dolore ipsa similique earum excepturi placeat tempore aliquam corrupti beatae, enim sapiente.
-                Facere?
-                Aperiam, distinctio blanditiis. Optio blanditiis quibusdam ea unde natus odit accusantium asperiores
-                delectus
-                molestiae maiores accusamus eius obcaecati, sapiente ex fugit, doloribus sed nostrum debitis deleniti
-                quia
-                saepe
-                eos nihil?
-                Odio molestiae quasi non in, architecto, veritatis blanditiis dolor quas eos omnis perspiciatis.
-                Repellat
-                inventore eos cupiditate mollitia omnis esse, consequuntur, facilis magni velit eaque sit dignissimos ad
-                porro
-                reprehenderit.
-                Pariatur molestiae dolore placeat quaerat, dolores hic, vel, provident iusto delectus ad amet? Tempora
-                excepturi
-                exercitationem porro laboriosam veniam sit distinctio esse accusantium commodi voluptate. Itaque
-                reprehenderit
-                aliquam nemo odit.
-            </p>
+
+        <section id="welcome-section" class="welcome-section">
+            <div class="welcome-content">
+                <h1 class="welcome-header">Hey, I am Arseny!</h1>
+                <p class="welcome-paragraph"><em>This is my unforgettable journey into the world of web development</em>
+                </p>
+            </div>
+
         </section>
+
+
+        <section id="projects" class="projects-section">
+            <h2 class="projects-section-header">These are some of my projects</h2>
+            <hr class="projects-header-underline">
+            
+                <div class="projects-grid">
+                    <a href="./Acadia_National_Park_Page/index.html" class="project project-tile">
+                        <img class="project-image"
+                            src="./img/1.jpg"
+                            alt="project">
+                        <p class="project-title">
+                            <span class="code">&lt;</span>
+                            Landing Page
+                            <span class="code">/&gt;</span>
+                        </p>
+                    </a>
+                    <a href="https://online-cinema.aresars2.repl.co/" class="project project-tile">
+                        <img class="project-image"
+                            src="./img/4.jpg"
+                            alt="project">
+                        <p class="project-title">
+                            <span class="code">&lt;</span>
+                            Online Cinema
+                            <span class="code">/&gt;</span>
+                        </p>
+                    </a>
+                    <a href="./Technical_Documentation_Page/index.html" class="project project-tile">
+                        <img class="project-image"
+                            src="./img/2.jpg"
+                            alt="project">
+                        <p class="project-title">
+                            <span class="code">&lt;</span>
+                            JavaScript Interview
+                            <span class="code">/&gt;</span>
+                        </p>
+                    </a>
+                    <a href="./Survey_Form/index.html" class="project project-tile">
+                        <img class="project-image"
+                            src="./img/3.jpg"
+                            alt="project">
+                        <p class="project-title">
+                            <span class="code">&lt;</span>
+                            Survey Form
+                            <span class="code">/&gt;</span>
+                        </p>
+                    </a>
+                    <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank" class="project project-tile">
+                        <img class="project-image"
+                            src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png"
+                            alt="project">
+                        <p class="project-title">
+                            <span class="code">&lt;</span>
+                            Wikipedia Viewer
+                            <span class="code">/&gt;</span>
+                        </p>
+                    </a>
+                    <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project project-tile">
+                        <img class="project-image"
+                            src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png"
+                            alt="project">
+                        <p class="project-title">
+                            <span class="code">&lt;</span>
+                            Random Quote Machine
+                            <span class="code">/&gt;</span>
+                        </p>
+                    </a>
+                </div>
+                <a href="https://github.com/ArsAres" class="btn btn-show-all" target="_blank">Show all<i
+                        class="fas fa-chevron-right"></i></a>
+            
+        </section>
+
+
+        <section id="contact" class="contact-section">
+            <div class="contact-section-header">
+                <h2>Let's work together</h2>
+            </div>
+            <div class="contact-links">
+                <a href="https://vk.com/arse_ares" target="_blank" class="btn contact-details"><i class="fab fa-vk"></i>
+                    My VK</a>
+                <a id="profile-link" href="https://github.com/ArsAres" target="_blank"
+                    class="btn contact-details"><i class="fab fa-github"></i>My GitHub</a>
+                <a href="https://t.me/arse_ares" target="_blank" class="btn contact-details"><i
+                        class="fab fa-twitter"></i>My Telegram</a>
+                <a href="https://www.instagram.com/arse.ares" target="_blank" class="btn contact-details"><i
+                        class="fab fa-instagram"></i>My Instagram</a>
+                <a href="mailto:senya.areshko@mail.ru" class="btn contact-details"><i class="fas fa-at"></i> Send a
+                    mail</a>
+                <a href="tel:+375336214329" class="btn contact-details"><i class="fas fa-mobile-alt"></i> Call me</a>
+            </div>
+        </section>
+
+
+        <footer>
+            
+            <p>
+                © Created by
+                <a href="https://www.freecodecamp.org/arse_ares" target="_blank">Arseny Areshko <i
+                        class="fab fa-free-code-camp"></i></a>
+            </p>
+        </footer>
     </div>
-    <script src="./script.js"></script>
+    
 </body>
 
 </html>

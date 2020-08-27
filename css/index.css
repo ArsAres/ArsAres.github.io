@@ -1,0 +1,212 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: rgba(245, 239, 239, 0.74);
+}
+
+.main-container {
+    margin: 0 auto;
+    max-width: 12000px;
+    min-width: 320px;
+}
+
+/*styles for header*/
+header {
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    background-color: rgba(245, 239, 239, 0.74);
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    margin-right: 50px;
+}
+
+.nav-link {
+    margin: 0 7px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+/*welcome section*/
+.welcome-section {
+
+    height: 100vh;
+
+    background-image: url(../img/jens-herrndorff-mZzSmzxzrX4-unsplash.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.welcome-content {
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(245, 239, 239, 0.425);
+    width: 50%;
+
+    opacity: 0;
+    /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s;
+    /*Скорость перехода состояния элемента*/
+    animation: show 3s 1;
+    /* Указываем название анимации, её время и количество повторов*/
+    animation-fill-mode: forwards;
+    /* Чтобы элемент оставался в конечном состоянии анимации */
+    animation-delay: 1s;
+    /* Задержка перед началом */
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.welcome-header {
+    font-weight: 800;
+    font-size: 32px;
+    color: #000;
+    margin: 10px;
+}
+
+.welcome-paragraph {
+    font-weight: 700;
+    margin: 10px;
+    font-size: 18px;
+    color: #000;
+    mix-blend-mode: overlay;
+    text-align: center;
+}
+
+/*projects section*/
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-header-underline {
+    border: #000 1px solid;
+    width: 75%;
+}
+
+.projects-grid-container {
+    background-color: #fff;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2px;
+
+}
+
+.projects-grid {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.btn-show-all {
+    border-radius: 2px;
+    width: 75%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #000;
+    margin: 15px 0;
+}
+
+.project-tile {
+    background-color: #000;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-tile:hover{
+    background-color: rgba(26, 20, 20, 0.74);
+}
+
+.project-image {
+    border-radius: 2px;
+    height: 350px;
+    width: 312px;
+    border: #4c4c4c 1px solid;
+}
+
+/*contact section*/
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-details {
+    margin: 15px 10px;
+    color: #000;
+}
+
+a.btn.contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-show-all:hover{
+    background-color: rgba(26, 20, 20, 0.74);
+}
+.fab,
+.fas {
+    margin: 3px;
+}
+
+/*footer*/
+footer {
+    background-color: #000;
+    color: rgba(245, 239, 239, 0.74);
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+}
+a {
+    text-decoration: none;
+    color: rgba(245, 239, 239, 0.74);
+}
