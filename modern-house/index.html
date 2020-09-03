@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern House</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js" integrity="sha512-0XDfGxFliYJPFrideYOoxdgNIvrwGTLnmK20xZbCAvPfLGQMzHUsaqZK8ZoH+luXGRxTrS46+Aq400nCnAT0/w==" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <section class="welcome-section">
+            <header id="header">
+                <div class="logo-container">
+                    <a href="#header">
+                        <img src="./images/logos/modern-house-logo.png" alt="" id="logo">
+                    </a>
+                    <p class="work-from"> Работаем с 2006 г.</p>
+                </div>
+                <div class="header-info">
+                    <div class="adress-container">
+                        <p>г. Минск, пер. С.Ковалевской 54/1 офис 213.</p>
+                    </div>
+                    <div class="social-icons-container">
+                        <a href="#"> <button class="viber social-icons"></button></a>
+                        <a href="#"><button class="whatsapp social-icons"></button></a>
+                        <a href="#"><button class="telegram social-icons"></button></a>
+                    </div>
+                    <div class="contact-numbers">
+                        <div class="number-container">
+                            <a href="tel:+375447160160" class="number">+375 (44) 716-01-60</a>
+                            <a href="tel:+375336027673" class="number">+375 (33) 602-76-73</a>
+                            <a href="tel:+375447180180" class="number">+375 (44) 718-01-80</a>
+                            <a href="tel:+375172240676" class="number">+375 (17) 224-06-76</a>
+                        </div>
+                        <a href="mailto:info@modern-house.by">info@modern-house.by</a>
+                    </div>
+                </div>
+                
+                <button class="header-button" type="submit">Вызвать бесплатно <br> замерщика</button>
+            </header>
+            <div class="welcome-container">
+                <div class="welcome-left-section">
+                    <div class="welcome-header"><h1 >Изготовим и впишем <span>шкаф-купе</span><br> в любую стену вашего дома
+                    </h1>
+                    <ul>
+                        <li>с колесиками, которые не сломаются через год</li>
+                        <li>с дверцами, которые не едят вашу одежду</li>
+                        <li>с 2-х летней гарантией</li>
+                    </ul></div>
+
+                    
+                    <div class="round-reasons-container">
+                        <div class="first-col">
+                            <div class="left-reason">
+                                <p>Рассрочка на 6 месяцев под 0%</p>
+                                <div class="round-icon"><img src="./images/icons/pay 1.png" alt=""></div>
+                            </div>
+                            <div class="left-reason">
+                                <p>Скидка на следующие заказы</p>
+                                <div class="round-icon"><img src="./images/icons/percent 1.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="second-col">
+                            <div class="highest-reason">
+                                <p>Экономия 32% за счет нашего производства</p>
+                                <div class="round-icon"><img src="./images/icons/money 1.png" alt=""></div>
+                            </div>
+                            <div class="for-you">
+                                <h2>Для Вас</h2>
+                            </div>
+                            <div class="lowest-reason">
+                                <div class="round-icon"><img src="./images/icons/ruler 1.png" alt=""></div>
+                                <p>Замеры и сборка
+                                    бесплатно</p>
+                            </div>
+                        </div>
+                        <div class="third-col">
+                            <div class="right-reason">
+                                <div class="round-icon"><img src="./images/icons/graphic-design 1.png" alt=""></div>
+                                <p>до 3-х вариантов дизайна бесплатно</p>
+                            </div>
+                            <div class="right-reason">
+                                <div class="round-icon"><img src="./images/icons/XMLID 1.png" alt=""></div>
+                                <p>Более 10 наших салонов и офисов в Минске</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="welcome-right-section">
+                    <form action="" class="welcome-form">
+                        <p class="form-header">Хотите разработать дизайн шкафа за 1 день?</p>
+                        <p class="form-text">Оставьте заявку для консультации
+                            с дизайнером!</p>
+                        <input type="tel" id="welcome-phone" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$"
+                            placeholder="Введите номер телефона" required>
+                        <!--формат-->
+                        <button class="form-button" type=submit>Оставить заявку</button>
+                        <p class="form-text-under">Ваши персональные данные будут защищены</p>
+                    </form>
+                    <button class="watch-video-button"><img src="./images/button-icons/play.png" class="play-icon" alt="">Смотреть
+                        видео о компании</button>
+                </div>
+            </div>
+        </section>
+        <section class="quiz-section">
+            <h2 class="quiz-section-header">Пройдите тест за 1 минуту, чтобы узнать стоимость мебели и получить
+                бесплатные бонусы:</h2>
+            <div class="bonuses-container">
+                <div class="bonus-container">
+                    <p class="bonus-bg">01</p>
+                    <p class="bonus">Дополнительную
+                        <span>скидку в 5%</span>
+                    </p>
+                </div>
+                <hr>
+                <div class="bonus-container">
+                    <p class="bonus-bg">02</p>
+                    <p class="bonus">Целых <span>5 вариантов</span> дизайна шкафа!
+                    </p>
+                </div>
+                <hr>
+                <div class="bonus-container">
+                    <p class="bonus-bg">03</p>
+                    <p class="bonus">
+                        <span>Экскурсию</span> на наше производство
+                    </p>
+                </div>
+                <hr>
+                <div class="bonus-container">
+                    <p class="bonus-bg">04</p>
+                    <p class="bonus">
+                        <span>
+                            Замер, доставку и сборку</span> шкафа-купе
+                    </p>
+                </div>
+            </div>
+            <div class="quiz-container">
+                <div class="quiz-left-section">
+                    <h3>Здорово, что вы помогаете нашим менеджерам быстрее помочь вам!</h3>
+                    <form action="" class="welcome-form">
+                        <p class="form-header">Хотите разработать дизайн шкафа за 1 день?</p>
+                        <p class="form-text">Оставьте заявку для консультации
+                            с дизайнером!</p>
+                        <input type="tel" id="welcome-phone" name="phone" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$"
+                            placeholder="Введите номер телефона" required>
+                        <!--формат-->
+                        <button class="form-button" type=submit>Оставить заявку</button>
+                        <p class="form-text-under">Ваши персональные данные будут защищены</p>
+                    </form>
+                </div>
+                <div class="quiz-right-section">
+                    
+                    <div class="quiz-question question1 active">
+                        <div class="form-group">
+                        <div class="quiz-progress">
+                            <p class="progress-label">Вопрос 1 из 5</p>
+    
+                            <div class="progress-container">
+                                <hr class="progress-stage passed">
+                                <hr class="progress-stage">
+                                <hr class="progress-stage">
+                                <hr class="progress-stage">
+                                <hr class="progress-stage">
+                            </div>
+                        </div>
+                        
+                            <p>Где нужно установить шкаф?</p>
+                            <div class="radios-container">
+                                <div class="radio-item">
+                                    <img src="./images/quiz/q_1_1.png" alt="" class="quiz-photo">
+                                    <input name="installation-location" value="in-the-corridor-1" id="in-the-corridor-1"
+                                        type="radio" class="input-radio"><label for="in-the-corridor-1">В коридоре
+                                    </label>
+                                </div>
+                                <div class="radio-item">
+                                    <img src="./images/quiz/q_1_2.png" alt="" class="quiz-photo">
+                                    <input name="installation-location" value="in-the-bedroom-1" id="in-the-bedroom-1"
+                                        type="radio" class="input-radio" checked="">
+                                    <label for="in-the-bedroom-1"> В спальне
+                                    </label>
+                                </div>
+                                <div class="radio-item">
+                                    <img src="./images/quiz/q_1_3.png" alt="" class="quiz-photo">
+                                    <input name="installation-location" value="in-the-nursery-1" id="in-the-nursery-1"
+                                        type="radio" class="input-radio">
+                                    <label for="in-the-nursery-1">В детской</label>
+
+                                </div>
+                                <div class="radio-item">
+                                    <img src="./images/quiz/q_1_4.png" alt="" class="quiz-photo">
+                                    <input name="installation-location" value="in-the-living-room-1"
+                                        id="in-the-living-room-1" type="radio" class="input-radio">
+                                    <label for="in-the-living-room-1">
+                                        В гостинной
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quiz-question question2">
+                        <div class="form-group">
+                            <div class="quiz-progress">
+                                <p class="progress-label">Вопрос 2 из 5</p>
+        
+                                <div class="progress-container">
+                                    <hr class="progress-stage passed">
+                                    <hr class="progress-stage passed">
+                                    <hr class="progress-stage">
+                                    <hr class="progress-stage">
+                                    <hr class="progress-stage">
+                                </div>
+                            </div>
+                            <p>Где нужно установить шкаф?</p>
+                            <div class="radios-container">
+                                <div class="radio-item">
+                                    <img src="./images/quiz/q_1_1.png" alt="" class="quiz-photo">
+                                    <input name="type" value="corpus" id="corpus"
+                                        type="radio" class="input-radio"><label for="corpus">Корпусный
+                                    </label>
+                                </div>
+                                <div class="radio-item">
+                                    <img src="./images/quiz/q_1_2.png" alt="" class="quiz-photo">
+                                    <input name="type" value="built-in" id="built-in"
+                                        type="radio" class="input-radio" checked="">
+                                    <label for="built-in"> Встраиваемый
+                                    </label>
+                                </div>
+                                <div class="radio-item">
+                                    <img src="./images/quiz/q_1_3.png" alt="" class="quiz-photo">
+                                    <input name="type" value="angular" id="angular"
+                                        type="radio" class="input-radio">
+                                    <label for="angular">Угловой</label>
+
+                                </div>
+                                <div class="radio-item">
+                                    <img src="./images/quiz/q_1_4.png" alt="" class="quiz-photo">
+                                    <input name="type" value="unsure"
+                                        id="unsure" type="radio" class="input-radio">
+                                    <label id="unsure-label"for="unsure">
+                                        Не могу определиться
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quiz-question question3">
+                        <div class="form-group">
+                            <div class="quiz-progress">
+                                <p class="progress-label">Вопрос 3 из 5</p>
+        
+                                <div class="progress-container">
+                                    <hr class="progress-stage passed">
+                                    <hr class="progress-stage passed">
+                                    <hr class="progress-stage passed">
+                                    <hr class="progress-stage">
+                                    <hr class="progress-stage">
+                                </div>
+                            </div>
+                            <p>Сколько примерно в ширину будет шкаф?</p>
+                            <div class="radios-container">
+                                <div class="radio-item">
+
+                                    <input name="cabinet-width-1" value="less-1" id="less-1-1" type="radio" class="input-radio">
+                                    <label for="less-1-1">До 1 метра
+                                    </label>
+                                </div>
+                                <div class="radio-item">
+
+                                    <input name="cabinet-width-1" value="1-1,5" id="1-1,5-1" type="radio" class="input-radio">
+                                    <label for="1-1,5-1">1-1,5 метра
+                                    </label>
+                                </div>
+                                <div class="radio-item">
+
+                                    <input name="cabinet-width-1" value="1,5-2" id="1,5-2-1" type="radio" class="input-radio"
+                                        checked="">
+                                    <label for="1,5-2-1">1,5-2 метра
+                                    </label>
+                                </div>
+                                <div class="radio-item">
+
+                                    <input name="cabinet-width-1" value="2-3" id="2-3-1" type="radio" class="input-radio">
+                                    <label for="2-3-1">2-3 метра
+                                    </label>
+                                </div>
+                                <div class="radio-item">
+
+                                    <input name="cabinet-width-1" value="more-3" id="more-3-1" type="radio" class="input-radio">
+                                    <label for="more-3-1">более 3-х метров
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quiz-question question4 ">
+                        <div class="form-group">
+                            <div class="quiz-progress">
+                                <p class="progress-label">Вопрос 4 из 5</p>
+        
+                                <div class="progress-container">
+                                    <hr class="progress-stage passed">
+                                    <hr class="progress-stage passed">
+                                    <hr class="progress-stage passed">
+                                    <hr class="progress-stage passed">
+                                    <hr class="progress-stage">
+                                </div>
+                            </div>
+                            <p>Где нужно установить шкаф?</p>
+                            <div class="radios-container">
+                                <div class="radio-item">
+                                    <img src="./images/quiz/q_1_1.png" alt="" class="quiz-photo">
+                                    <input name="material" value="dsp" id="dsp"
+                                        type="radio" class="input-radio"><label for="dsp">ДСП
+                                    </label>
+                                </div>
+                                <div class="radio-item">
+                                    <img src="./images/quiz/q_1_2.png" alt="" class="quiz-photo">
+                                    <input name="material" value="lacomat" id="lacomat"
+                                        type="radio" class="input-radio" checked="">
+                                    <label for="lacomat" id="lacomat-label"> Лакомебель
+                                        или лакомат
+                                    </label>
+                                </div>
+                                <div class="radio-item">
+                                    <img src="./images/quiz/q_1_3.png" alt="" class="quiz-photo">
+                                    <input name="material" value="photoprint" id="photoprint"
+                                        type="radio" class="input-radio">
+                                    <label for="photoprint">Фотопечать</label>
+
+                                </div>
+                                <div class="radio-item">
+                                    <img src="./images/quiz/q_1_4.png" alt="" class="quiz-photo">
+                                    <input name="material" value="mirrors"
+                                        id="mirrors" type="radio" class="input-radio">
+                                    <label for="mirrors" id="mirrors-label">
+                                        Зеркала и стекла
+                                    </label>
+                                </div>
+                                <div class="radio-item">
+                                    <img src="./images/quiz/q_1_3.png" alt="" class="quiz-photo">
+                                    <input name="material" value="sand-print" id="sand-print"
+                                        type="radio" class="input-radio">
+                                    <label for="sand-print" id="sand-print-label">Пескоструйный
+                                        рисунок</label>
+
+                                </div>
+                                <div class="radio-item">
+                                    <img src="./images/quiz/q_1_3.png" alt="" class="quiz-photo">
+                                    <input name="material" value="ecoskin" id="ecoskin"
+                                        type="radio" class="input-radio">
+                                    <label for="ecoskin" >Экокожа</label>
+
+                                </div>
+                                <div class="radio-item">
+                                    <img src="./images/quiz/q_1_3.png" alt="" class="quiz-photo">
+                                    <input name="material" value="unsure-1" id="unsure-1"
+                                        type="radio" class="input-radio">
+                                    <label for="unsure-1" id="unsure-1-label">Не могу определиться</label>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quiz-question question5 ">
+                        <div class="form-group">
+                            <div class="quiz-progress">
+                                <p class="progress-label">Вопрос 5 из 5</p>
+        
+                                <div class="progress-container">
+                                    <hr class="progress-stage passed">
+                                    <hr class="progress-stage passed">
+                                    <hr class="progress-stage passed">
+                                    <hr class="progress-stage passed">
+                                    <hr class="progress-stage passed">
+                                </div>
+                            </div>
+                            <p>В какой срок вам нужно изготовить и установить шкаф?</p>
+                            <div class="radios-container">
+                                <div class="radio-item">
+                                    <input name="install-deadline" value="during-week" id="during-week"
+                                        type="radio" class="input-radio"><label for="during-week">В течение недели
+                                    </label>
+                                </div>
+                                <div class="radio-item">
+
+                                    <input name="install-deadline" value="from-7-to-14" id="from-7-to-14"
+                                        type="radio" class="input-radio" checked="">
+                                    <label for="from-7-to-14"> от 7 до 14 дней
+                                    </label>
+                                </div>
+                                <div class="radio-item">
+                                    <input name="install-deadline" value="about-month" id="about-month"
+                                        type="radio" class="input-radio">
+                                    <label for="about-month">Около месяца</label>
+
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quiz-buttons">
+                        <button class="prev-button hidden">Назад</button>
+                        <button class="next-button">Далее</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="benefits-section">
+            <div class="benefits-container">
+                <h2>Шкаф-купе с элементами ваших идей</h2>
+                <p>Чтобы получить мебель с вашим авторским дизайном, которую можно с гордостью показывать родственникам,
+                    вам потребуются:</p>
+                <div class="benefits">
+                    <div class="benefit">
+                        <img src="./images/icons/idea 1.png" alt="" class="benefit-icon">
+                        <h3>Ваши самые интересные идеи
+                            и задумки</h3>
+                        <p>Главное дайте нам идею, а наши дизайнеры помогут ее усилить, используя наработанный за 14 лет
+                            опыт</p>
+                    </div>
+                    <div class="benefit">
+                        <img src="./images/icons/website-design 1.png" alt="" class="benefit-icon">
+                        <h3>Графические программы последних версий</h3>
+                        <p>Наши дизайнеры готовы сделать вам разборчивую 3D-модель, чтобы вы могли расчленять ее на
+                            части и
+                            менять размеры и цвета каждой детали.</p>
+                    </div>
+                    <div class="benefit">
+                        <img src="./images/icons/worker 1.png" alt="" class="benefit-icon">
+                        <h3>Хороший и умелый замерщик с фруктами </h3>
+                        <p>Без точных измерений вашего помещения сделать хороший шкаф не получится. А фрукты от
+                            замерщика
+                            просто для хорошего настроения!
+                        </p>
+                    </div>
+                    <div class="benefit">
+                        <img src="./images/icons/drill-machine 1.png" alt="" class="benefit-icon">
+                        <h3>Европейское оборудование
+                            и первоклассные столяры</h3>
+                        <p>
+                            На нашем производстве как раз работают люди, за плечами которых более 5-ти лет практики.
+                            Немецкое оборудование тоже нас не подводит. </p>
+                    </div>
+                    <div class="benefit">
+                        <img src="./images/icons/delivery-truck 1.png" alt="" class="benefit-icon">
+                        <h3>Бесплатные доставка и монтаж шкафа</h3>
+                        <p>Изготовить шкаф — это только полбеды! Его еще нужно аккуратно доставить в дом и сделать
+                            уборку
+                            пылесосом после монтажа. Хотите этим заморачиваться? </p>
+                    </div>
+                </div>
+            </div>
+            <div class="benefit-form-container">
+                <h2>Оставляйте заявку, чтобы заказать шкаф
+                    с уникальным дизайном!</h2>
+
+                <form action="" class="order-form">
+                    <div class="order-inputs-container"><label for="order-name">Введите ваше имя
+                            <input type="text" name="order-name" id="order-name" placeholder="Например, Иван">
+                        </label>
+                        <label for="order-num">Введите ваш телефон
+                            <input type="tel" name="order-num" id="order-num" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" placeholder="+375 (XX) XXX-XX-XX">
+                        </label>
+                        <label for="order-name">Введите ваш e-mail
+                            <input type="email" name="order-email" id="order-email" placeholder="Ivan33@mail.ru">
+                        </label>
+                        <button class="form-button" type=submit>Пройти все шаги</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="products-section">
+            <div class="products-header">
+                <div class="products-header-container">
+                    <h2>Шкафы, которые уже заказали</h2>
+                    <p>Мы работаем с 2006 г. и нам есть, что показать вам! </p>
+                </div>
+                <button class="cathegory-select">
+                    <p>Нажмите и выберите категорию шкафов</p> <img src="./images/button-icons/cursor.png" alt=""
+                        class="cursor-icon">
+                </button>
+            </div>
+            <h3 class="cathegory-header">Двухдверные шкафы</h3>
+            <div class="products-container">
+                <div class="product active" data-productnumber="1">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+                <div class="product active" data-productnumber="2">
+                    <img src="./images/products/product2.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+                <div class="product active" data-productnumber="3">
+                    <img src="./images/products/product3.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+                <div class="product active" data-productnumber="4">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+                <div class="product active" data-productnumber="5">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+                <div class="product active" data-productnumber="6">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+                <div class="product active" data-productnumber="7">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+                <div class="product active" data-productnumber="8">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+               <div class="product" data-productnumber="9">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+               <div class="product" data-productnumber="10">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+               <div class="product" data-productnumber="11">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+               <div class="product" data-productnumber="12">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+               <div class="product" data-productnumber="13">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+               <div class="product" data-productnumber="14">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+               <div class="product" data-productnumber="15">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+               <div class="product" data-productnumber="16">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+               <div class="product" data-productnumber="17">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+                <div class="product" data-productnumber="18">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+                <div class="product" data-productnumber="19">
+                    <img src="./images/products/product1.png" alt="" class="product-image">
+                    <h3 class="product-cathegory">Шкаф-купе с эко кожей </h3>
+                    <p class="product-name">Бенгальский тигр</p>
+                    <div class="product-info-container">
+                        <div class="product-parameters">
+                            <p class="product-width">Ширина - 1111</p>
+                            <p class="product-height">Высота - 1111</p>
+                        </div>
+                        <p class="product-cost">3400р</p>
+                    </div>
+                </div>
+            </div>
+            <button id="show-more">Показать больше</button>
+            <form action="" class="order-form">
+                <h3>Оставьте заявку, чтобы заказать типовой проект!</h3>
+                <div class="order-inputs-container"><label for="order-name">Введите ваше имя
+                        <input type="text" name="order-name" id="order-name" placeholder="Например, Иван">
+                    </label>
+                    <label for="order-num">Введите ваш телефон
+                        <input type="tel" name="order-num" id="order-num" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" placeholder="+375 (XX) XXX-XX-XX">
+                    </label>
+                    <label for="order-name">Введите ваш e-mail
+                        <input type="email" name="order-email" id="order-email" placeholder="Ivan33@mail.ru">
+                    </label>
+                    <button class="form-button" type=submit>Заказать готовый проект</button>
+                </div>
+            </form>
+        </section>
+        <section class="our-production">
+            <h2>Наше производство</h2>
+            <div class="production-container">
+                <img src="./images/carousel/view-2.png" alt="" class="production-view">
+                <div class="production-about-container">
+                    <div class="production-about-header">
+                        <p>У нас есть своя производственная база с немецким оборудованием,
+                            за счет чего мы можем гарантировать качество мебели и ставить ценники на 32% ниже. </p>
+                        <h4>У вас есть возможность посетить наше предприятие и увидеть, как производится наша мебель!
+                        </h4>
+                    </div>
+                    <div class="production-carousel">
+                        <button class="swipe-left"></button>
+                        <img src="./images/carousel/view-1.png" alt="" data-view="1" class="production-preview">
+                        <img src="./images/carousel/view-2.png" alt="" data-view="2" class="production-preview">
+                        <img src="./images/carousel/view-3.png" alt="" data-view="3" class="production-preview">
+                        <img src="./images/carousel/view-4.png" alt="" data-view="4" class="production-preview">
+                        <img src="./images/carousel/view-4.png" alt="" data-view="5" class="production-preview">
+                        <button class="swipe-right"></button>
+                    </div>
+                </div>
+            </div>
+            <form action="" class="order-form">
+                <h3>Записывайтесь на производственную экскурсию!</h3>
+                <div class="order-inputs-container"><label for="order-name">Введите ваше имя
+                        <input type="text" name="order-name" id="order-name" placeholder="Например, Иван">
+                    </label>
+                    <label for="order-num">Введите ваш телефон
+                        <input type="tel" name="order-num" id="order-num" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" placeholder="+375 (XX) XXX-XX-XX">
+                    </label>
+                    <label for="order-name">Введите ваш e-mail
+                        <input type="email" name="order-email" id="order-email" placeholder="Ivan33@mail.ru">
+                    </label>
+                    <button class="form-button" type=submit>Записаться на экскурсию</button>
+                </div>
+            </form>
+        </section>
+        <section class="clients-reviews-section">
+            <h2>Что говорят наши клиенты</h2>
+            <div class="video-reviews-container">
+                <div class="video-container">
+                    <img src="./images/video-reviews/video-review-1.png" alt="">
+                    <button class="watch-video"></button>
+                </div>
+                <div class="video-container">
+                    <img src="./images/video-reviews/video-review-2.png" alt="">
+                    <button class="watch-video"></button>
+                </div>
+                <div class="video-container">
+                    <img src="./images/video-reviews/video-review-3.png" alt="">
+                    <button class="watch-video"></button>
+                </div>
+            </div>
+            <div class="text-reviews-container">
+                <div class="text-review">
+                    <div class="text-review-header">
+                        <img src="./images/text-review-avatars/text-review-1.png" alt="" class="text-review-avatar">
+                        <div class="review-author-info">
+                            <p class="author-name">Елена</p>
+                            <p class="review-date">04 апреля 2019</p>
+                        </div>
+                    </div>
+                    <p>Большое спасибо! Грамотные специалисты в техническом отделе, подсказали, как улучшить типовой
+                        проект под себя! Цены вменяемые, даже не ожидала. Жалко, что офис не в центре, далеко
+                        добираться.</p>
+                </div>
+                <div class="text-review">
+                    <div class="text-review-header">
+                        <img src="./images/text-review-avatars/text-review-2.png" alt="" class="text-review-avatar">
+                        <div class="review-author-info">
+                            <p class="author-name">Виктор</p>
+                            <p class="review-date">02 апреля 2019</p>
+                        </div>
+                    </div>
+                    <p>Хорошие цены, если сравнивать среди аналогичных компаний. Дороже, чем если заказывать у бригады
+                        возведение с нуля, но зато можно отследить весь процесс, по запросу предоставляют фото из цеха.
+                    </p>
+                </div>
+                <div class="text-review">
+                    <div class="text-review-header">
+                        <img src="./images/text-review-avatars/text-review-3.png" alt="" class="text-review-avatar">
+                        <div class="review-author-info">
+                            <p class="author-name">Сергей</p>
+                            <p class="review-date">01 апреля 2019</p>
+                        </div>
+                    </div>
+                    <p>Заказал каркас с утеплением в 2017 году. Порадовало, что изготавливают с европейскими
+                        материалами. Проблем с качеством не возникало. Сделали довольно быстро.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact-us-section">
+            <h2>Свяжитесь с нами</h2>
+            <div class="contact-us-container">
+
+                <div class="contact-numbers">
+                    <div class="number-container">
+                        <a href="tel:+375447160160" class="number">+375 (44) 716-01-60</a>
+                        <a href="tel:+375336027673" class="number">+375 (33) 602-76-73</a>
+                        <a href="tel:+375447180180" class="number">+375 (44) 718-01-80</a>
+                        <a href="tel:+375172240676" class="number">+375 (17) 224-06-76</a>
+                    </div>
+                    <a href="mailto:info@modern-house.by">info@modern-house.by</a>
+                </div><div class="messengers-container">
+                <p>Мы есть в мессенджерах</p>
+                <div class="social-icons-container">
+                    <a href="#"> <button class="viber social-icons"></button></a>
+                    <a href="#"><button class="whatsapp social-icons"></button></a>
+                    <a href="#"><button class="telegram social-icons"></button></a>
+                </div>
+            </div>
+            </div>
+            <form action="" class="contact-us-form">
+                <h2>Заполните форму</h2>
+                <h3>Это бесплатно</h3>
+                <div class="form-group">
+
+                    <p>Куда нужно установить шкаф?</p>
+                    <div class="radios-container">
+                        <div class="radio-item">
+
+                            <input name="installation-location" value="in-the-corridor" id="in-the-corridor"
+                                type="radio" class="input-radio"><label for="in-the-corridor">В коридоре
+                            </label>
+                        </div>
+                        <div class="radio-item">
+
+                            <input name="installation-location" value="in-the-bedroom" id="in-the-bedroom" type="radio"
+                                class="input-radio" checked="">
+                            <label for="in-the-bedroom"> В спальне
+                            </label>
+                        </div>
+                        <div class="radio-item">
+
+                            <input name="installation-location" value="in-the-nursery" id="in-the-nursery" type="radio"
+                                class="input-radio">
+                            <label for="in-the-nursery">В детской</label>
+
+                        </div>
+                        <div class="radio-item">
+
+                            <input name="installation-location" value="in-the-living-room" id="in-the-living-room"
+                                type="radio" class="input-radio">
+                            <label for="in-the-living-room">
+                                В гостинной
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <p>Сколько примерно в ширину будет шкаф?</p>
+                    <div class="radios-container">
+                        <div class="radio-item">
+
+                            <input name="cabinet-width" value="less-1" id="less-1" type="radio" class="input-radio">
+                            <label for="less-1">До 1 метра
+                            </label>
+                        </div>
+                        <div class="radio-item">
+
+                            <input name="cabinet-width" value="1-1,5" id="1-1,5" type="radio" class="input-radio">
+                            <label for="1-1,5">1-1,5 метра
+                            </label>
+                        </div>
+                        <div class="radio-item">
+
+                            <input name="cabinet-width" value="1,5-2" id="1,5-2" type="radio" class="input-radio"
+                                checked="">
+                            <label for="1,5-2">1,5-2 метра
+                            </label>
+                        </div>
+                        <div class="radio-item">
+
+                            <input name="cabinet-width" value="2-3" id="2-3" type="radio" class="input-radio">
+                            <label for="2-3">2-3 метра
+                            </label>
+                        </div>
+                        <div class="radio-item">
+
+                            <input name="cabinet-width" value="more-3" id="more-3" type="radio" class="input-radio">
+                            <label for="more-3">более 3-х метров
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <p>Через сколько дней нужно изготовить и установить шкаф?</p>
+                    <div class="radios-container">
+                        <div class="radio-item">
+
+                            <input name="installation-deadline" value="during-the-week" id="during-the-week"
+                                type="radio" class="input-radio"><label for="during-the-week">В течение недели
+                            </label>
+                        </div>
+                        <div class="radio-item">
+
+                            <input name="installation-deadline" value="7-14 days" id="7-14 days" type="radio"
+                                class="input-radio" checked="">
+                            <label for="7-14 days">от 7 до 14 дней
+                            </label>
+                        </div>
+                        <div class="radio-item">
+
+                            <input name="installation-deadline" value="near-month" id="near-month" type="radio"
+                                class="input-radio">
+                            <label for="near-month"> Около месяца
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <h4>Оставьте контактные данные, чтобы получить расчет!</h4>
+                <div class="order-inputs-container">
+                    <label for="order-name">Введите ваше имя
+                        <input type="text" name="order-name" id="order-name" placeholder="Например, Иван"></label>
+                    <label for="order-num">Введите ваш телефон
+                        <input type="tel" name="order-num" id="order-num" pattern="^\+375 \((17|29|33|44|25)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$" placeholder="+375 (XX) XXX-XX-XX"></label>
+                    <label for="order-name">Введите ваш e-mail
+                        <input type="email" name="order-email" id="order-email" placeholder="Ivan33@mail.ru"></label>
+                    <button class="form-button" type=submit>Оставить заявку</button>
+                </div>
+            </form>
+        </section>
+        <footer><div class="footer-container">
+            <div class="logo-adress-container">
+                <img src="./images/logos/footer-logo.png" alt="" id="logo">
+                <p>г. Минск, пер. С.Ковалевской 54/1 офис 213.</p>
+            </div>
+            <div class="contact-numbers">
+                <div class="number-container">
+                    <a href="tel:+375447160160" class="number">+375 (44) 716-01-60</a>
+                    <a href="tel:+375336027673" class="number">+375 (33) 602-76-73</a>
+                    <a href="tel:+375447180180" class="number">+375 (44) 718-01-80</a>
+                    <a href="tel:+375172240676" class="number">+375 (17) 224-06-76</a>
+                </div>
+                <a href="mailto:info@modern-house.by">info@modern-house.by</a>
+            </div>
+            <div class="icons-logo-container">
+            <div class="social-icons-container">
+                <a href="#"> <button class="viber social-icons"></button></a>
+                <a href="#"><button class="whatsapp social-icons"></button></a>
+                <a href="#"><button class="telegram social-icons"></button></a>
+            </div>
+            <div class="alfa-logo-container">
+                <p>Сайт разработан</p>
+                <img src="./images/logos/alfa-logo.png" alt="">
+            </div>
+        </div>
+        </div>
+        </footer>
+    </div>
+    
+    <script src="./scripts/script.js"></script> 
+</body>
+
+</html>
