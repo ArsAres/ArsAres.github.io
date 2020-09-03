@@ -682,77 +682,7 @@ line-height: 1.185rem;
     margin-bottom: 1.875rem;
     width: 29.75rem;
 }
-.question1 .form-group .radios-container {
-    display: flex;
-    justify-content: column;
-    width: 37.5rem;
-    
-}
-.quiz-question.question1.active~.quiz-buttons{
-    margin-top: 10.000rem;
-}
-.question1 .form-group .radios-container .radio-item {
 
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 0.75rem;
-}
-
-.question1 .form-group .radios-container .radio-item label {
-    margin-top: 0.875rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-weight: bold;
-    font-size: 0.875rem;
-    text-align: left;
-}
-
-.question1 .form-group .radios-container .radio-item label:before {
-    content: " ";
-    display: inline-block;
-    position: relative;
-    top: 0px;
-}
-
-.question1 .form-group .radio-item input[type=radio]:checked+label:after {
-    top: 9.25rem;
-    left: 0.1rem;
-}
-.question2 .form-group .radios-container {
-    display: flex;
-    justify-content: row;
-    width: 37.5rem;
-}
-
-.question2 .form-group .radios-container .radio-item {
-
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 0.875rem;
-}
-.quiz-question.question2.active~.quiz-buttons{
-    margin-top: 10.000rem;}
-
-.question2 .form-group .radios-container .radio-item label {
-    margin-top: 0.875rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
-    width: 100%;
-}
-
-.question2 .form-group .radios-container .radio-item label:before {
-    content: " ";
-    display: inline-block;
-    position: relative;
-    top: 0px;
-}
 #unsure-label{
     margin-top:0.5rem;
 }
@@ -765,21 +695,18 @@ line-height: 1.185rem;
     top: 9.35rem;
     left: 0.25rem;
 }
-.question2 .form-group .radio-item input[type=radio]:checked+label:after {
-    top: 9.25rem;
-    left: 0.25rem;
-}
+
 .next-button {
     width: 10.625rem;
 }
-.question3 .form-group .radios-container{
+.list-question .form-group .radios-container{
     display:flex;
     flex-direction: column;
 
     height: 19.375rem;
 
 }
-.question3 .form-group .radio-item label{
+.list-question .form-group .radio-item label{
     font-weight: bold;
 font-size: 0.875rem;
     padding:1.1875rem 0rem 1.125rem 1.4375rem;
@@ -789,28 +716,28 @@ font-size: 0.875rem;
 box-shadow: 5px 5px 40px rgba(55, 84, 170, 0.1);
 border-radius: 6px;
 }
-.question3 .form-group .radio-item label:hover{
+.list-question .form-group .radio-item label:hover{
     box-shadow: 0px 4px 20px #FFC4C4;
 }
-.question3.active~.quiz-buttons{
+.list-question.active~.quiz-buttons{
     margin-top: 4.875rem;
 }
-.question3.active~.quiz-buttons .next-button{
+.list-question.active~.quiz-buttons .next-button{
     margin-top:0px;
 }
-.question3 .form-group .radio-item input[type=radio]:checked+label:after {
+.list-question .form-group .radio-item input[type=radio]:checked+label:after {
     top: 1.45rem;
     left: 1.7rem;
 }
 
-.question4 .form-group .radios-container {
+.image-question .form-group .radios-container {
     display: flex;
     justify-content: row;
     flex-wrap: wrap;
     width: 37.5rem;
 }
 
-.question4 .form-group .radios-container .radio-item {
+.image-question .form-group .radios-container .radio-item {
     width: 8.55rem;
     font-weight: bold;
     margin-right: 0.626rem;
@@ -821,7 +748,7 @@ border-radius: 6px;
     margin-top:1.375rem;
 }
 
-.question4 .form-group .radios-container .radio-item label {
+.image-question .form-group .radios-container .radio-item label {
     margin-top: 0.875rem;
     display: flex;
     flex-direction: row;
@@ -830,22 +757,22 @@ border-radius: 6px;
     width: 100%;
 }
 
-.question4 .form-group .radios-container .radio-item label:before {
+.image-question .form-group .radios-container .radio-item label:before {
     content: " ";
     display: inline-block;
     position: relative;
     top: 0px;
 }
-.question4 .form-group .radio-item input[type=radio]:checked+label:after {
+.image-question .form-group .radio-item input[type=radio]:checked+label:after {
     top: 9.25rem;
     left: 0.25rem;
 }
 
 
-.question4 .form-group .radios-container .radio-item #lacomat-label{
+.image-question .form-group .radios-container .radio-item #lacomat-label{
     margin-top:0.5rem;
 }
-.question4 .form-group .radios-container .radio-item #lacomat-label:before{
+.image-question .form-group .radios-container .radio-item #lacomat-label:before{
     width: 1.5rem;
     height: 1.000rem;
     top: 0px;
@@ -890,38 +817,6 @@ border-radius: 6px;
  input[type=radio]:checked+#unsure-1-label:after{
     top: 9.35rem;
     left: 0.25rem;
-}
-
-
-.question5 .form-group .radios-container{
-    display:flex;
-    flex-direction: column;
-
-    height: 19.375rem;
-
-}
-.question5 .form-group .radio-item label{
-    font-weight: bold;
-font-size: 0.875rem;
-    padding:1.1875rem 0rem 1.125rem 1.4375rem;
-    margin-bottom:0.625rem;
-    background: #FFFFFF;
-    width:38.125rem;
-box-shadow: 5px 5px 40px rgba(55, 84, 170, 0.1);
-border-radius: 6px;
-}
-.question5 .form-group .radio-item label:hover{
-    box-shadow: 0px 4px 20px #FFC4C4;
-}
-.question5.active~.quiz-buttons{
-    margin-top:1.875rem;
-}
-.question5.active~.quiz-buttons .next-button{
-    margin-top:0px;
-}
-.question5 .form-group .radio-item input[type=radio]:checked+label:after {
-    top: 1.45rem;
-    left: 1.7rem;
 }
 
 .quiz-question .form-group {
