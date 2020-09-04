@@ -105,7 +105,7 @@ window.onload=function(){
     allProgressContainers[i].children[0].classList.add("passed");
   }
 
-  let allQuestions = document.querySelectorAll(".quiz-question");
-  allQuestions[0].classList.add("active");//показываем первый вопрос
+  let allQuizez = document.querySelectorAll(".quiz-question");
+  allQuizez[0].classList.add("active");//показываем первый вопрос
   
 }
