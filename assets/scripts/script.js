@@ -57,9 +57,14 @@ $(".next-button").on("click", function () {
     }
   }
   document.querySelector(".prev-button").classList.remove("hidden");
-  if (questionIndex !== 4) {
+  if (questionIndex !== allQuestions.length-1) {
     currentActiveQuestion.classList.remove("active");
     allQuestions[questionIndex + 1].classList.add("active");
+    for(let i=0;i<=questionIndex + 1;i++){
+      allQuestions[questionIndex + 1].children[0].children[0].children[1].children[i].classList.add('passed');
+    }
+    
+    //переключили на новый вопрос и добавили пройденный progress-stage
   }
 });
 $(".prev-button").on("click", function () {
@@ -80,3 +85,27 @@ $(".prev-button").on("click", function () {
   currentActiveQuestion.classList.remove("active");
   allQuestions[questionIndex - 1].classList.add("active");
 });
+window.onload=function(){
+  let allQuestions = document.querySelectorAll(".quiz-progress");
+  let progressStagesHTML="";
+  let questionsNumber=allQuestions.length;
+  for(let i=0;i<questionsNumber;i++){
+    progressStagesHTML+='<hr class="progress-stage">';
+  }
+  for(let i=0;i<questionsNumber;i++){
+    allQuestions[i].innerHTML=` <p class="progress-label">Вопрос ${i+1} из ${questionsNumber}</p>
+    
+    <div class="progress-container">
+        ${progressStagesHTML}
+    </div>`;
+  }
+
+  let allProgressContainers = document.querySelectorAll(".progress-container");
+  for(let i=0;i<allProgressContainers.length;i++){
+    allProgressContainers[i].children[0].classList.add("passed");
+  }
+
+  let allQuestions = document.querySelectorAll(".quiz-question");
+  allQuestions[0].classList.add("active");//показываем первый вопрос
+  
+}
