@@ -671,6 +671,8 @@ line-height: 1.185rem;
     display: flex;
     flex-direction: column;
     width: 38rem;
+    animation-duration: 0.55s;
+    animation-name: appearing;
 }
 .quiz-question .form-group p {
     font-style: normal;
